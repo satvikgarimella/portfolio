@@ -4,7 +4,7 @@ export function Hero() {
       <div className="max-w-3xl w-full">
         <div className="flex justify-center mb-6">
           <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-foreground/10">
-            <img src="/profile-photo.jpg" alt="Profile" className="w-full h-full object-cover" />
+            <img src="/logo.png" alt="Satvik Garimella Logo" className="w-full h-full object-cover" />
           </div>
         </div>
 
