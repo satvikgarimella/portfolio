@@ -12,7 +12,7 @@ export function Contact() {
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           <a
             href="mailto:sg8gar@gmail.com"
-            className="px-8 py-3 rounded-full bg-[#4B5563] hover:bg-[#374151] text-white font-medium transition-colors"
+            className="px-8 py-3 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium transition-colors"
           >
             Send Email
           </a>
@@ -20,7 +20,7 @@ export function Contact() {
             href="https://linkedin.com/in/satvik-garimella-100049201"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 rounded-full bg-[#6B7280] hover:bg-[#4B5563] text-white font-medium transition-colors"
+            className="px-8 py-3 rounded-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-medium transition-colors"
           >
             LinkedIn
           </a>
@@ -28,7 +28,7 @@ export function Contact() {
             href="https://github.com/satvikgarimella"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 rounded-full bg-[#374151] hover:bg-[#1F2937] text-white font-medium transition-colors"
+            className="px-8 py-3 rounded-full bg-accent hover:bg-accent/90 text-accent-foreground font-medium transition-colors"
           >
             GitHub
           </a>
