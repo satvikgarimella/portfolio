@@ -11,6 +11,28 @@ export default function WorkPage() {
           <div className="space-y-16">
             <div className="border-l-2 border-foreground/20 pl-8">
               <div className="mb-3">
+                <h3 className="text-2xl font-semibold">AI Production Engineer Intern</h3>
+                <p className="text-lg text-muted-foreground mt-1">CIBC</p>
+              </div>
+              <p className="text-sm text-muted-foreground mb-6">May 2026 - Present</p>
+              <ul className="text-foreground/80 leading-relaxed space-y-2">
+                <li>
+                  • Developing and deploying robust machine learning pipelines and LLM-powered services to optimize enterprise 
+                  workflows, leveraging containerized microservices and cloud infrastructure for highly scalable financial operations
+                </li>
+                <li>
+                  • Collaborating with engineering teams to implement comprehensive model monitoring, logging, and automated 
+                  evaluation frameworks, ensuring model compliance, security, and low latency serving
+                </li>
+                <li>
+                  • Designing and implementing CI/CD pipelines for seamless AI model deployment, streamlining transition from experimental 
+                  models to production serving environments
+                </li>
+              </ul>
+            </div>
+
+            <div className="border-l-2 border-foreground/20 pl-8">
+              <div className="mb-3">
                 <h3 className="text-2xl font-semibold">AI Developer</h3>
                 <p className="text-lg text-muted-foreground mt-1">Western AI</p>
               </div>

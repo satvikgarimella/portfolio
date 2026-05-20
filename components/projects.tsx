@@ -1,6 +1,18 @@
 export function Projects() {
   const projects = [
     {
+      title: "NanoChat: Custom JAX LLM",
+      description:
+        "Architected and trained a custom 162M parameter conversational transformer model from scratch using JAX and Equinox. Optimized inference by compiling the entire autoregressive sampling loop into a single JAX JIT graph, achieving sub-second generation on serverless GPUs (via Modal). Integrated a FastAPI gateway with DuckDuckGo Web Search RAG to connect the model to real-time search results.",
+      year: "2025",
+      links: [
+        { label: "GitHub", url: "https://github.com/satvikgarimella/Jax-Nanochat" },
+        { label: " Demo", url: "https://nanochatjax.vercel.app/" },
+        { label: "Twitter", url: "https://x.com/satvikgari/status/2052849564764241998?s=20" },
+      ],
+      tags: "JAX, Equinox, Modal, FastAPI, RAG, Python",
+    },
+    {
       title: "Gov AI: Decentralized Polling System",
       description:
         "Built a cryptographically secure polling platform with Solana blockchain integration, supporting multi-wallet authentication (Phantom, Solflare, Backpack) and AI-powered fraud detection. Developed using React, TypeScript, Rust (Anchor framework), and Python FastAPI.",
@@ -12,18 +24,6 @@ export function Projects() {
         { label: "Twitter", url: "https://x.com/satvikgari/status/1993107140366721343?s=20" },
       ],
       tags: "Solana, React, Rust, AI, Web3",
-    },
-    {
-      title: "NanoChat: Custom JAX LLM",
-      description:
-        "Architected and trained a custom 162M parameter conversational transformer model from scratch using JAX and Equinox. Optimized inference by compiling the entire autoregressive sampling loop into a single JAX JIT graph, achieving sub-second generation on serverless GPUs (via Modal). Integrated a FastAPI gateway with DuckDuckGo Web Search RAG to connect the model to real-time search results.",
-      year: "2025",
-      links: [
-        { label: "GitHub", url: "https://github.com/satvikgarimella/Jax-Nanochat" },
-        { label: " Demo", url: "https://nanochatjax.vercel.app/" },
-        { label: "Twitter", url: "https://x.com/satvikgari/status/2052849564764241998?s=20" },
-      ],
-      tags: "JAX, Equinox, Modal, FastAPI, RAG, Python",
     },
     {
       title: "CurServe",
