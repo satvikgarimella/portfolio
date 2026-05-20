@@ -14,6 +14,16 @@ export function Projects() {
       tags: "Solana, React, Rust, AI, Web3",
     },
     {
+      title: "NanoChat: Custom JAX LLM",
+      description:
+        "Architected and trained a custom 162M parameter conversational transformer model from scratch using JAX and Equinox. Optimized inference by compiling the entire autoregressive sampling loop into a single JAX JIT graph, achieving sub-second generation on serverless GPUs (via Modal). Integrated a FastAPI gateway with DuckDuckGo Web Search RAG to connect the model to real-time search results.",
+      year: "2025",
+      links: [
+        { label: "GitHub", url: "https://github.com/satvikgarimella/NanoChat" },
+      ],
+      tags: "JAX, Equinox, Modal, FastAPI, RAG, Python",
+    },
+    {
       title: "CurServe",
       description:
         "Architected high-performance multi-tenant serving engine enabling 100+ concurrent AI coding agents with near-zero latency. Built Rust daemon with memory-mapped file system achieving 5-30x speedup over traditional shell-based search.",
