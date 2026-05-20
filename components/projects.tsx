@@ -4,7 +4,7 @@ export function Projects() {
       title: "NanoChat: Custom JAX LLM",
       description:
         "Architected and trained a custom 162M parameter conversational transformer model from scratch using JAX and Equinox. Optimized inference by compiling the entire autoregressive sampling loop into a single JAX JIT graph, achieving sub-second generation on serverless GPUs (via Modal). Integrated a FastAPI gateway with DuckDuckGo Web Search RAG to connect the model to real-time search results.",
-      year: "2025",
+      year: "2026",
       links: [
         { label: "GitHub", url: "https://github.com/satvikgarimella/Jax-Nanochat" },
         { label: " Demo", url: "https://nanochatjax.vercel.app/" },
